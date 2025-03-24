@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VichMat2
+﻿namespace VichMat2
 {
-
     public interface IGauss
     {
         float[] SolveWithoutPivoting(float[,] A, float[] b);
